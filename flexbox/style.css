@@ -17,23 +17,37 @@ hr {
 .navbar {
   padding: 10px;
   background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
 .logo {
   width: 50px;
 }
 
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
 .nav-links a {
   text-decoration: none;
   color: #0025FF;
+
 }
 
 /* Practice: Equal-width cards */
-
+.card-container {
+  display: flex;
+  gap: 10px;
+  
+}
 .card {
   background: lightblue;
   border: 2px solid #0025FF;
   padding: 20px;
+  width: 33%;
 }
 
 /* Codealong: Plan and code a card */
@@ -41,14 +55,59 @@ hr {
   display: flex;
 }
 
+
 .card-image {
   width: 450px;
   margin-right: 5px;
 }
 
 article {
-  width: 375px;
-  height: 500px;
+  width: 450px;
+  height: 607px;
   background: white;
   color: rgb(0, 24, 164);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+
+  border-color: blue;
+  border-style: solid;
+  border-width: 16px 16px 2px 2px;
+
+}
+
+.white-space {
+  margin: 20px;
+}
+
+.top-text p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.preamble {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 30px;
+
+}
+
+.button {
+  background: blue;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 700;
 }
